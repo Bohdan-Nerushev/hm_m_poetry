@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "hm-m-poetry"
+name = "my-project"
 version = "0.1.0"
 description = ""
 authors = ["Lenovo <bogdannerushev@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.2"
+python = "^3.12"
+requests = "^2.32.3"
 
 
 [build-system]
